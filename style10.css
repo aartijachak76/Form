@@ -1,0 +1,101 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #96a9ad;
+}
+
+/* Container for the form */
+.form-container {
+    background-color: rgb(241, 235, 231);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px hsla(141, 88%, 6%, 0.1);
+    width: 100%;
+    max-width: 550px;
+    /* margin-top: -11%; */
+}
+
+/* Styling the form title */
+h2 {
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Styling the labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Styling the input fields */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Styling the checkbox and radio inputs */
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Styling the submit and reset buttons */
+input[type="submit"]{
+    margin-top: 15px;
+    padding: 10px;
+    width: 20%;
+    background-color: rgb(22, 100, 126);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(69, 155, 183);
+}
+
+/* Styling the textarea */
+textarea {
+    resize: vertical; /* Allows vertical resizing only */
+    height: 150px;
+}
+
+/* Adding some margin between form elements */
+div {
+    margin-bottom: 15px;
+}
+
+body{
+    margin-top: 30%;
+}
+/* Centering the submit button */
+.submit-container {
+    display: flex;
+    justify-content: center;
+}
